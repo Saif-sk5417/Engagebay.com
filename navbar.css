@@ -10,7 +10,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* border: 1px solid red; */
     margin-top: -7px;
-   height: 80px;
+}
+ul{
+    column-gap: 20px;
 }
 
 #index_navbar1{
@@ -18,22 +20,13 @@
    /* border: 1px solid black; */
    margin-left: 100px;
    height: 30px;
-   padding-bottom: 5px;
-   padding-right: 20px;
    
 }
 
 #index_navbar1 img{
    width: 100%;
-   padding: 12px;
-   height: 100%;
-   
-   
-   /* height: 100%; */
-  
-   /* border: 1px solid black; */
-  
-  
+   padding: 10px;
+   padding-right: 20px;
  }
 
 
@@ -482,36 +475,37 @@ ul {
     display: block;
   }
 
-  @media (max-width: 800px) {
-    #index_product,#index_resourse,#index_pricing,#index_freetools,#index_blog,#index_login,#index_free_demo,#index_free_signup {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-    }
-    
-    nav ul.show {
-      display: flex;
-    }
-    
-    .my-button {
-      display: block;
-      column-gap: 400px;
-     
-      
-    }
-  }
-  @media (min-width: 802px)  {
-  #scrool_btn1{
+
+
+   
+  .dropdown-content1 {
     display: none;
-  }
-}
-#scrool_btn1{
-    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   right: 120;
+   
   }
   
-  #index_navbar_2{
-    
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+   
   }
+  
+  .dropdown-content1 a:hover {background-color: #f1f1f1;}
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+
+
+  
+
 
 
 
