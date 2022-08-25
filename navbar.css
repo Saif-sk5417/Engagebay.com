@@ -485,7 +485,9 @@ ul {
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-   right: 120;
+    right: 120;
+    text-align: left;
+    justify-content: left;
    
   }
   
