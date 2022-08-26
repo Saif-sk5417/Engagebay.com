@@ -122,62 +122,106 @@ a:hover{
 
 #product_dropdown{
     display: flex;
+    font-size: 0.875rem;
+    color: #3f4254;
 
 }
 
 #navbar_product_dropdown2{
+
     display: flex;
+    margin-bottom: 5px;
+    
+    line-height: 40px;
+    font-size: 0.875rem;
+    color: #3f4254;
+}
+
+#navbar_product_dropdown2 p{
+
+    padding: 5px;
+
 }
 
 #svg_allplan{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    
+    padding: 20px;
 }
 
 #svg_basic{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    
+    padding: 20px;
 }
 
 #svg_growth{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    
+    padding: 20px;
+   
 }
 
 #svg_pro{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    
+    padding: 20px;
 }
 #all_plan1{
     display: flex;
-    column-gap: 2px;
-    padding: 10px;
-    /* border: 1px solid black; */
+    
    
     
+    /* border: 1px solid black; */
     
+}
+#all_plan2{
+   padding-top: -40px;
     
+   
+    
+    /* border: 1px solid black; */
     
 }
 
 #all_plan3{
-    margin-top: -20px;
-    line-height: 15px;
+   
+    line-height: 5px;
+    
+}
+#all_plan h4{
+    margin-bottom: -5px;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #151b26;
     
 }
 
+#basic1 h4{
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #151b26;
+    line-height: 1.5;
+}
+
+
 #basic1{
     display: flex;
-    column-gap: 2px;
+    column-gap: 4px;
+    row-gap: 4px;
     padding: 10px;
-    /* border: 1px solid black; */
-    color: black;
+    
 }
 
 #basic3{
-    margin-top: -20px;
     line-height: 15px;
-   
 }
 #growth1{
     display: flex;
@@ -352,6 +396,12 @@ a:hover{
 #navbar_product_dropdown2 div{
     padding-left: 20px;
     padding-right: 20px;
+    padding: 0px 5px;
+
+}
+#navbar_product_dropdown2 p{
+    
+    padding: 5px 5px;
 
 }
 
@@ -511,13 +561,177 @@ ul {
   .dropdown1:hover .dropdown-content1 {
     display: block;
   }
+  @media only screen and (max-width: 1115px){
+    #index_product,#index_pricing,#index_resourse,#index_freetools,#index_blog,#index_login,#index_free_demo,#index_free_signup{
+        display: none;
+    }
 
+    #index_navbar{
+        padding: -400px;
+    }
+
+    .top-nav{
+        display: block;
+      }
+  }
 
   
+/* 
+  #my-button{
+    display: none;
+  } */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+{
+    margin: 0;
+    padding: 0;   
+}
+
+#my-button2 {
+  background-color: transparent;
+  border: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 32px;
+  float: left;
+  line-height: 70px;
+  display: none;
+}
+
+.my-button2:focus {
+  outline: none;
+}
+
+#mynav2:focus {
+    background-color: transparent;
+  }
+nav {
+    background-color: transparent;
+    flex-wrap: wrap;
+    block-size: 550px;
+    writing-mode: horizontal-tb;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    list-style: none
+}
+
+/* nav ul li {
+    padding: 120px 120px;
+} */
+
+nav ul li a {
+    color:transparent;
+    text-decoration: none;
+}
 
 
 
 
+@media (max-width: 1000px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button2 {
+    display: block;
+  }
+  nav ul li a {
+    color:black;
+    text-decoration: none;
+}
 
+#mynav2{
+   margin-top: 50px;
+  
 
+}
+#abcde{
+    height: 50px;
+    position: absolute;
+    left: -120;
+   
+}
+#mynav2 li{
+    color: rgba(0, 0, 0, 0.55);
+    background-color: #f8f9fa;
+   
+   
+    font-weight: 700;
+    font-size: 0.9375rem;
+    
+    
+    width: 100%;
+    
+    /* border: 1px solid black; */
+    border-radius: 5px;
+   
+    block-size: 550px;
+    writing-mode: horizontal-tb;
+}
 
+#btn_sky_change:hover{
+    background-color:pink;
+    width: 100%;
+}
+}
+
+/* @media (max-width: 700px) {
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button {
+    display: block;
+    position: relative;
+  }
+    nav {
+        
+        
+        position:absolute;
+        background-color: #f9f9f9;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        right: -520;
+        text-align: left;
+        justify-content: left;
+    }
+    nav ul li a {
+        color:black;
+        text-decoration: none;
+    }
+    nav li{
+        width: 100%;
+    }
+
+    #navbar{
+        margin-top: 50px;
+         top:-130px;
+         background-color:black;
+     }
+     #abcde{
+         height: 50px;
+        
+     }
+} */
+/* 
+#mynav{
+    display: none;
+} */

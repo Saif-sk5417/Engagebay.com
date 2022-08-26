@@ -154,7 +154,7 @@
 
 
 #index_intergaration{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -210,3 +210,160 @@
    
     margin: 50px;
 }
+
+/*  */
+/* #########################--------Toy-------------######################## */
+
+#toy {
+    width: 100%;
+    height: 450px;
+
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f8f9fa;
+
+}
+
+#toy>div {
+    width: 600px;
+    height: 60px;
+
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+#toy>div>input {
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    margin-left: 0px;
+    border-radius: 30px;
+    padding-left: 20px;
+
+}
+
+#toy>div>div {
+    width: 150px;
+    height: 55px;
+
+    margin-top: 2px;
+    margin-left: -150px;
+    border-radius: 30px;
+    padding-top: 20px;
+    background-color: rgb(240, 137, 73);
+}
+
+#toy {
+    padding-top: 50px;
+}
+
+#toy>p+h1 {
+    color: blueviolet;
+}
+
+#toy>h1 {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toy>p {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toy>span {
+    font-size: 17px;
+    font-family: 'Segoe UI'
+}
+
+#toy_purple{
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+}
+
+/* ########################---------------media query-----------###################### */
+
+@media only screen and (max-width: 1000px) {
+
+    
+
+    #carousal_p{
+       
+        margin: auto; 
+        padding: 0px 150px;
+    
+    }
+    #index_clent{
+        margin: auto;
+    }
+
+    
+#Carousel_left{
+    top: 200px;
+    left: 200px;
+    font-weight: 500;
+}
+#do_it_enagage{
+    margin: auto;
+}
+
+#Carousel_right{
+    right: 200px;   
+    font-weight: 500;
+}
+
+#do_it_enagage p{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: auto;
+}
+#engage_grid{
+    width:80%;  
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    line-height: 15px;
+}
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+
+    
+
+    #carousal_p{
+       
+        margin: auto; 
+        padding: 0px 250px;
+    
+    }
+
+    #do_it_enagage p{
+        padding: 0px 150px;
+        margin: auto;
+    }
+
+  
+    
+    #do_it_enagage p{
+        padding-left: 200px;
+        padding-right: 200px;
+        margin: auto;
+    }
+
+    #engage_grid{
+        width:80%;  
+        margin:auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:30px;
+        line-height: 15px;
+}
+    
+  }
