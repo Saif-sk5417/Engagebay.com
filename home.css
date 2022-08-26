@@ -1,0 +1,212 @@
+#index_main_div{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+#index_clent{
+    background-color:#f5f7ff;
+    /* background-image:url(https://cdn5.engagebay.com/img/testimonials/leonard.jpeg); */
+    width: 100%;
+    /* height: 500px; */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+
+.carousel-inner{
+    margin: auto;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+
+   
+
+}
+
+.carousel-inner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+#client_h2{
+    padding-top: 50px;
+}
+.carousel-control-prev{
+    background-color: black;
+}
+.first_div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+#carousel_div{
+   
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+#carousel_div p{
+    width: 100%;
+}
+
+#Carousel_left{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    top: 200px;
+    left: -20px;
+    
+    font-weight: 500;
+
+}
+
+#Carousel_right{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    top: 200px;
+    right: -20px;
+    
+    font-weight: 500;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#do_it_enagage{
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+   
+    font-weight: 700;
+    
+
+}
+
+#do_it_enagage h1{
+    font-size: 38px;
+    padding-top:100px;
+}
+
+#do_it_enagage p{
+    color: #5e5f64;
+    font-size: 1.25rem;
+    font-weight: 350;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+#engage_grid{
+            width:80%;  
+            margin:auto;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap:30px;
+            line-height: 15px;
+}
+
+#div_data{
+    background-color:#f5f7fb;
+    border-radius: 10px;
+    margin-top: 70px;
+    transition: transform .2s;
+}
+
+#div_data img{
+   width: 100%;
+   padding: 40px;
+}
+
+#div_data p{
+    color: #051441;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+#div_data:hover{
+    
+            border: 2px solid blue;
+           padding: 10px;
+           transition: transform .2s;
+           width: 180px;
+           height: 220px;
+    
+}
+
+
+/* <!-- #############################-----------------------Our Integration Partners-----------------########### --> */
+
+
+#index_intergaration{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#index_intergaration h1{
+   padding-top: 60px;
+   font-weight: 700;
+    margin-bottom: 25px;
+    font-size: calc(1.3625rem + 1.35vw);
+    line-height: 1.2;
+}
+
+#index_intergaration p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #677294;
+}
+
+.integration-list-img td{
+    border-radius: 50px;
+   
+
+}
+
+.integration-list-img img{
+   margin: 20px;
+ 
+}
+
+#integration-list-img1{
+    margin: 140px;
+}
+
+#integration-list-img2{
+    margin-left: 30px;
+
+}
+
+.integration-list-img td{
+    border-radius: 50%;
+    padding: 0.1px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px;
+}
+
+#td_blank{
+    border: none;
+    box-shadow:none;
+    margin: 170px;
+}
+
+#integration-list-img_table{
+   
+    margin: 50px;
+}

@@ -1,15 +1,25 @@
 
 
 #index_navbar{
+    width: 100%;
     display: flex;
     /* justify-content:space-between; */
-    padding: 20px;
+    padding-top: 20px;
     font-size: 15px;
     font-weight: 500;
     color: #151b26;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: -40px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    
+    background-color: white;
+   
     /* border: 1px solid red; */
-    margin-top: -7px;
+    
 }
 ul{
     column-gap: 20px;
@@ -19,20 +29,19 @@ ul{
    width: 200px;
    /* border: 1px solid black; */
    margin-left: 100px;
-   height: 30px;
+   
    
 }
 
 #index_navbar1 img{
    width: 100%;
-   padding: 10px;
+   padding: 20px;
    padding-right: 20px;
  }
 
 
 #index_navbar2{
     display: flex;
-    
     margin-left: 50px;
     justify-content: space-between;
 
@@ -40,15 +49,13 @@ ul{
 
 #index_navbar2 div{
     display: flex;
-    
     margin-left: 50px;
     justify-content: space-between;
 
 }
 
 #index_navbar2 div{
-    display: flex;
-    
+    display: flex; 
     margin-left: 40px;
     justify-content: space-between;
 
