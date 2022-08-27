@@ -5,7 +5,7 @@ let nav=()=>{
     
 
     <ul>
-    <li id="index_navbar1"><img src="https://www.engagebay.com/new/assets/img/engagebay-logo.svg"></li>
+    <a href='home.html'><li id="index_navbar1"><img src="https://www.engagebay.com/new/assets/img/engagebay-logo.svg"></li></a>
     
     <li class="dropdown" id="index_product">
 <a href="#news">Products</a>
@@ -192,14 +192,14 @@ let nav=()=>{
         </div>
 
         
-                <li><div id="index_pricing"><a href="#">Pricing</a></div></li>
+                <li><div id="index_pricing"><a href="pricing1.html">Pricing</a></div></li>
 
 
                 <!-- #########################---------------------Resourse-----------############################ -->
                 
                 
                 <li class="dropdown" id="index_resourse">
-                    <a href="#news">Resourse</a>
+                    <a href="resources.html">Resourse</a>
                    
                     <div class="dropdown-content">
                         <div id="product_dropdown">
@@ -390,10 +390,10 @@ let nav=()=>{
                         <a href="#">Email Tracker</a>
                       </div>
                 </div></li>
-                <li><div id="index_blog"><a href="#">Blog</a></div></li>
-                <li><div id="index_login"><a href="#">Login</a></div></li>
-                <li><div><button id="index_free_demo">Free Demo</button></div></li>
-                <li><div><button id="index_free_signup">Free Signup</button></div></li>
+                <li><div id="index_blog"><a href="blog.html">Blog</a></div></li>
+                <li><div id="index_login"><a href="login.html">Login</a></div></li>
+                <a href='demo.html'><li><div><button id="index_free_demo">Free Demo</button></div></li></a>
+                <a href='signup.html'><li><div><button id="index_free_signup">Free Signup</button></div></li></a>
 </div>
 </li>
 </ul>
