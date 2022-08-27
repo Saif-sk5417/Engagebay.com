@@ -1,0 +1,140 @@
+body{
+  display: flex;
+ font-family:'Nunito Sans', sans-serif;;
+}
+#SL_main{
+  /*border: 1px solid black;*/
+  width: 33.5%;
+  background-color: white;
+}
+#SL_main>#SL_logo{
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+}
+#SL_main>#SL_Last{
+  font-size: 20px;
+  color: #212529;
+  text-align: center;
+}
+.SL_input{
+  width: 80%;
+  height: 50px;
+  border: 1px solid rgb(222, 222, 222);
+  display: block;
+  padding: 10px;
+  margin: auto;
+  border-radius: 3px;
+}
+.SL_input ::placeholder{
+  color: rgb(222, 222, 222);
+}
+input::placeholder{
+color: rgb(222, 222, 222); ;
+}
+.SL_label{
+  font-size: 15px;
+  font-weight: 500;
+  color: #212529;
+  margin-left: 45px;
+}
+#SL_img{
+  /*border: 1px solid black;*/
+  width: 66.5%;
+  background-color: white;
+}
+#SL_btn1{
+  width: 80%;
+  height: 50px;
+  font-size: 15px; 
+  background-color:#F2603E;
+  border:none;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  display: block;
+  margin: auto;
+}
+#SL_G{
+width: 5%;
+height: 3.5%; 
+padding: 11px;
+position: relative;
+top: -7.4%;
+left: 10.5%; 
+background-color: white;
+}
+#SL_btn2{
+  width: 80%;
+  height: 50px;
+  font-size: 15px; 
+  background-color:#0069D9;
+  border:none;
+  color: white;
+  display: block;
+  border-radius: 3px;
+  margin: auto;
+  font-weight: bold;
+  margin-top: 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+.SL_foot{
+  margin-top: -10px;
+  font-size: 14px;
+  text-align: center;
+}
+#SL_policy{
+  font-size: 11px;
+  margin-top: -10px;
+  color: #84888c;
+  text-align: center;
+}
+
+#SL_img{
+  background:linear-gradient(to right ,rgba(5, 29, 208, 0.954) ,rgb(42, 201, 230));
+
+}
+#SL_img2{
+  width: 65%;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+}
+#SL_img1{
+  width: 80%;
+  display:flex;
+  justify-content: space-around;
+  font-size: 14px;
+  color: white;
+  font-weight:500;
+  background-color: transparent;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+#SL_img1>div{
+  margin-top: 10px;
+}
+#SL_img1>div>:nth-child(2){
+  margin-left: 260px;
+}
+#SL_img1>img{
+  width: 64px;
+  display: block;
+  margin: 20px;
+  height: 64px;
+  border: 4px solid rgba(105, 149, 242, 0.954);
+  border-radius: 40px;
+}
+

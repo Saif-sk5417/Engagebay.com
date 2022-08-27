@@ -1,0 +1,55 @@
+body{
+    background:linear-gradient(to right ,rgba(5, 29, 208, 0.954) ,rgb(42, 201, 230));
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+#SL_welcome{
+    width: 40%;
+    height: 95%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 40px;
+    background-color: white;
+}
+#info_h1{
+    color: #43506A;
+    font-size: 23px;
+    line-height: 25.3px;
+    text-align: center;
+    padding-top: 50;
+}
+#info_h2{
+    color: #43506A;
+    text-align: center;
+    
+}
+.SL_select{
+    display: block;
+    margin: auto;
+    height: 40px;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 5px;
+    width:70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    font-size: 13px;
+    color: grey;
+    margin-left:79px;
+}
+#org{
+    color:#F2603E; 
+}
+#done_btn{
+    display: block;
+    width: 80px;
+    padding: 8px 20px;
+    color: white;
+    font-size: 13px;
+     background-color:#F2603E;
+    border: none;
+    margin-left: 70%;
+    margin-top: 40px;
+    border-radius: 5px;
+}
