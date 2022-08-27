@@ -1,0 +1,926 @@
+#index_main_div{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+#index_clent{
+    background-color:#f5f7ff;
+    /* background-image:url(https://cdn5.engagebay.com/img/testimonials/leonard.jpeg); */
+    width: 100%;
+    /* height: 500px; */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.carousel-item{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+.carousel-inner{
+    margin: auto;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+
+   
+
+}
+
+.carousel-inner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+#client_h2{
+    padding-top: 50px;
+}
+.carousel-control-prev{
+    background-color: black;
+}
+.first_div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+#carousel_div{
+   
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+#carousel_div p{
+    width: 100%;
+}
+
+#Carousel_left{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    top: 200px;
+    left: -20px;
+    
+    font-weight: 500;
+
+}
+
+#Carousel_right{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    top: 200px;
+    right: -20px;
+    
+    font-weight: 500;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#do_it_enagage{
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+   
+    font-weight: 700;
+    
+
+}
+
+#do_it_enagage h1{
+    font-size: 38px;
+    padding-top:100px;
+}
+
+#do_it_enagage p{
+    color: #5e5f64;
+    font-size: 1.25rem;
+    font-weight: 350;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+#engage_grid{
+            width:80%;  
+            margin:auto;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap:30px;
+            line-height: 15px;
+}
+
+#div_data{
+    background-color:#f5f7fb;
+    border-radius: 10px;
+    margin-top: 70px;
+    transition: transform .2s;
+}
+
+#div_data img{
+   width: 100%;
+   padding: 40px;
+}
+
+#div_data p{
+    color: #051441;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+#div_data:hover{
+    
+            border: 2px solid blue;
+           padding: 10px;
+           transition: transform .2s;
+           width: 180px;
+           height: 220px;
+    
+}
+
+
+/* <!-- #############################-----------------------Our Integration Partners-----------------########### --> */
+
+
+#index_intergaration{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#index_intergaration h1{
+   padding-top: 60px;
+   font-weight: 700;
+    margin-bottom: 25px;
+    font-size: calc(1.3625rem + 1.35vw);
+    line-height: 1.2;
+}
+
+#index_intergaration p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #677294;
+}
+
+.integration-list-img td{
+    border-radius: 50px;
+   
+
+}
+
+.integration-list-img img{
+   margin: 20px;
+ 
+}
+
+#integration-list-img1{
+    margin: 140px;
+}
+
+#integration-list-img2{
+    margin-left: 30px;
+
+}
+
+.integration-list-img td{
+    border-radius: 50%;
+    padding: 0.1px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px;
+}
+
+#td_blank{
+    border: none;
+    box-shadow:none;
+    margin: 170px;
+}
+
+#integration-list-img_table{
+   
+    margin: 50px;
+}
+
+/* <!-- #######################---------Create Your Own Views-----------------####################### --> */
+
+
+#Create_own_views{
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+
+#Create_own_views1{
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#Create_own_views_h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: calc(1.3625rem + 1.35vw);
+
+}
+
+#Create_own_views_p{
+    color: #677294;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+}
+
+#Create_own_views_flex{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#Create_own_views_flex h3{
+    color: #292d34;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+
+#Create_own_views3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   
+    
+
+}
+#Create_own_views3 img{
+   
+    width: 100%;
+   height: 80%;
+
+}
+
+#Create_own_views4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+   justify-content: left;
+   text-align: left;
+   padding-left: 30px;
+}
+
+#Create_own_views3 h1{
+    padding-top: 20px;
+    color: #292d34;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+   
+    margin-bottom: 40px;
+    justify-content: left;
+    text-align: left;
+    padding-left: 10px;
+    text-align: left;
+   
+
+}
+
+
+#Create_own_views3 p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #677294;
+    justify-content: left;
+    padding-left: 10px;
+    text-align: left;
+   
+
+}
+
+#Create_own_views3 h5{
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 10px;
+    
+   
+
+}
+#Create_own_views4 p{
+
+    text-align: left;
+
+
+}
+
+#Create_own_views_a{
+    position: relative;
+    animation: mymove 1s ;
+}
+
+#Create_own_views_b{
+    position: relative;
+    animation: mymove1 1s ;
+}
+
+
+
+/* ######################-----------------------Toy------------------------##################### */
+
+#toy {
+    width: 100%;
+    height: 450px;
+
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f8f9fa
+
+}
+
+#toy>div {
+    width: 600px;
+    height: 60px;
+
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+#toy>div>input {
+    width: 600px;
+    height: 60px;
+    font-size: 18px;
+    margin-left: 0px;
+    border-radius: 30px;
+    padding-left: 20px;
+
+}
+
+#toy>div>div {
+    width: 150px;
+    height: 54px;
+
+    margin-top: 1px;
+    margin-left: -150px;
+    border-radius: 30px;
+    padding-top: 18px;
+    background-color: rgb(240, 137, 73);
+}
+
+#toy {
+    padding-top: 50px;
+}
+
+#toy>p+h1 {
+    color: blueviolet;
+}
+
+#toy>h1 {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toy>p {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toy>span {
+    font-size: 17px;
+    font-family: 'Segoe UI'
+}
+
+
+
+
+
+/* <!-- #################-----------------------Happy Customers----------############## --> */
+
+#logo {
+    width: 100%;
+    height: 350px;
+
+    background-color: #2c4fbf;
+    margin-top: 80px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#logo>h2 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#logo_in {
+    width: 70%;
+    height: 150px;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    animation: mymove1 5s ;
+}
+
+#logo_in>div {
+    width: 15%;
+
+}
+
+#logo_in>div>img {
+    width: 80%;
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-----Media Query--------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+/* ####################-------------------- Market better-----############################### */
+
+
+#marketbetter{
+    width: 100%;
+    height: max-content;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: #F4EBE3;
+    position: relative;
+    top:0;
+    padding-top: 70px;
+   
+   }
+   #marketbetter>p:nth-child(1){
+    font-size: 80px;
+    line-height: 95px;
+    font-weight: 500;
+    margin: 6% 14%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   #marketbetter>p:nth-child(2){
+    font-size: 28px;
+    color:grey;
+    font-weight: 50;
+    margin: -4% 21% 0 21%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+    #marketbetter>input{
+        width:47%;
+        height:60px;
+        margin:3% 0% 0 25%;
+        border:3px solid #FF885E;
+        border-radius: 50px;
+        padding-left: 2%;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+        font-size: 18px;
+        padding-bottom: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #marketbetter>button{
+        height:45px;
+        background-color: #FF7342;
+        color: white;
+        border:none;
+        width:150px;
+        text-align: center;
+        margin-left: -12%;
+        margin-bottom: -20px;
+        border-radius: 25px;
+    }
+    #marketbetter>img{
+        width:90%;
+        margin: 0 5%;
+    }
+    #marketbetter>div:nth-child(5)>div img{
+        width:10%;
+    }
+    #marketbetter>div:nth-child(5)>div:nth-child(2)>img{
+        width:10%;
+    }
+    #marketbetter>div:nth-child(5)>div{
+        display: flex;
+    }
+    #marketbetter>div:nth-child(5){
+        width: 30%;
+        height: max-content;
+        font-size: 17px;
+        margin:3% auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border:1px solid black; */
+    }
+
+
+    /* ########################-----------------IMAGE--------------------########################## */
+
+    #mkt_image{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+        padding-top: 80px;
+        column-gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .single_solution1{
+        position: relative;
+        animation: mymovea 2s
+
+    }
+
+    .single_solution2{
+        position: relative;
+        animation: mymoveb 2s
+    }
+
+    .single_solution3{
+        position: relative;
+        animation: mymovec 2s
+    }
+
+    .single_solution4{
+        position: relative;
+        animation: mymoved 2s
+    }
+
+
+    #single_solution{
+        width: 50%;
+        
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #single_solution h2{
+        display: block;
+        font-size: 2.0em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    #single_solution p{
+
+        font-size: 1.12rem;
+        font-weight: 300;
+       
+    }
+
+    #single_solution_div2{
+        display: flex;
+    }
+
+    #single_solution_div5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #single_solution_div2 img{
+       width: 120px;
+       height: 120px;
+       margin: 0px 40px;
+    }
+
+    #single_solution_div2 p{
+        width: 250px;
+    }
+
+    #single_solution_div1 {
+       border: 1px solid black;
+       border-radius: 15px;
+    }
+
+    #single_solution_div2 {
+        padding: 40px;
+    }
+
+    #single_solution_div5 h2{
+        padding-left: 40px;
+        
+    }
+
+    #single_solution_div1 h6{
+        padding-left: 40px;
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 1rem
+    }
+
+    #single_solution_div5 div{
+        padding-left: 40px;
+       
+    }
+
+    #single_solution_div1 button{
+        padding: 10px 30px;
+        margin-left: 40px;
+        margin-top: 40px;
+        color: white;
+        background-color: #6639b3;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+       
+    }
+
+    #single_grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+
+
+    }
+
+    #mkt_image{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+        padding-top: 80px;
+        column-gap: 10px;
+        margin-bottom: 50px;
+    }
+
+
+    @media only screen and (max-width: 1100px) and (min-width: 800px)  {
+        #carousel_div_p{
+            padding-left: 150px;
+            padding-right: 150px;
+            margin: auto;
+        }
+    
+        #Carousel_left{
+            top: 200px;
+            left: 200px;
+        }
+    
+        #Carousel_right{
+            top: 200px;
+            right: 200px;
+        }
+    
+        #do_it_enagage p{
+            padding-left:100px ;
+            padding-right:100px ;
+    
+        }
+        
+        #engage_grid{
+        
+        grid-template-columns: repeat(4,1fr);
+        gap:20px
+        
+        }
+    
+        #Create_own_views_flex{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            row-gap:5px
+        }
+    
+        #Create_own_views3{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 5px;
+           
+            
+        
+        }
+    
+        #marketbetter1{
+            font-size:1 rem;
+        }
+    
+        #marketbetter button{
+            margin-left: 55%;
+            margin-bottom: -120px;
+            margin-right: 55px;
+           
+    
+        }
+    
+        #single_grid{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+            width: 80%;
+            margin: auto;
+    
+        }
+
+        #mkt_image{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+            width: 60%;
+            margin: auto;
+            /* border: 1px solid black; */
+            padding-top: 80px;
+            column-gap: 10px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 799px) and (min-width: 100px){
+        #carousel_div_p{
+            padding-left: 200px;
+            padding-right: 200px;
+            margin: auto;
+        }
+    
+        #Carousel_left{
+            top: 200px;
+            left: 300px;
+        }
+    
+        #Carousel_right{
+            top: 200px;
+            right: 300px;
+        }
+        #do_it_enagage p{
+            padding-left:200px ;
+            padding-right:200px ;
+    
+        }
+    
+        #engage_grid{
+        
+            grid-template-columns: repeat(2,1fr);
+            gap:10px
+            
+            
+            }
+    
+            #Create_own_views_flex{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap:2px
+            }
+            #Create_own_views3{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 2px;
+               
+                
+            
+            }
+    
+            #single_grid{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 5px;
+                width: 80%;
+                margin: auto;
+        
+            }
+
+            #mkt_image{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                
+                width: 40%;
+                margin: auto;
+                /* border: 1px solid black; */
+                padding-top: 80px;
+                column-gap: 10px;
+                margin-bottom: 50px;
+            }
+    }
+
+
+    /* ############_________________FOOTER______________@@@@@@@@@@@@@@@ */
+    #footer{
+        width: 100%;
+        height: auto;
+       
+        background-color: rgb(100, 100, 232);
+       
+     }
+     #footer1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        color: white;
+     }
+     #pic{
+        width: 40%;
+        height: 450px;
+        padding-left: 70px;
+        padding-right: 50px;
+       
+     
+     }
+     #pic>img{
+       width: 80%;
+       height: 100%;
+     }
+     #inputbox{
+        width: 60%;
+       
+        font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+     }
+     #inputbox>p{
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+     }
+     #inputbox>input{
+        width: 320px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 20px;
+        gap: 20px;
+        background-color: #525cbb;
+        border: 0px;
+        padding-left: 30px;
+        color: rgb(236, 9, 35);
+     }
+     
+     #inputbox>button{
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        color: white;
+        background-color: rgb(248, 111, 62);
+        border: 0px;
+       
+     }
+     #desc{
+        width: 100%;
+        height: 350px;
+       
+        padding: 50px;
+        padding-left: 70px;
+        display: flex;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+       
+     }
+     #desc>div{
+        width: 18%;
+       
+        line-height: 16px;
+     }
+     #logo3{
+        width: 250px;
+        padding-left: 70px;
+       
+     }
+     #logo3>img{
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+     }
+    
+    
+    
+   
+       
+        
+    
+    
