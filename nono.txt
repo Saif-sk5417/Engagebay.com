@@ -1,0 +1,3 @@
+        <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg" alt="" srcset="">
+
+A full-featured marketing platform. With this, you have all you need to get started and succeed. Having all in one platform make any marketer job much easier.
