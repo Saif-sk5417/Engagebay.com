@@ -1,0 +1,249 @@
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+/* nvabar */
+
+/* navbar ends*/
+/* header starts */
+#res_header1{
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+line-height: 60px;
+color: #3F2D4F;
+}
+#res_header2{
+text-align: center;
+font-size: 19px;
+font-weight:1000;
+color:#2F2C2C;
+margin-top: -20px;
+margin-bottom: 120px;
+}
+/* header ends */
+/* Top section start */
+#resourcesbox{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 55px;
+}
+#resourcesbox > div{
+    margin-bottom: 85px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight:500;
+    color: #6F6F6F;
+}
+#resdes{
+    font-size: 16px;
+    color:#252525;
+    font-weight: 600;
+    margin-top: -10px ;
+    line-height: 24px;
+}
+#resbtn{
+text-decoration: none;
+font-size: 16px;
+line-height: 24px;
+color: #0067B8;
+border: 0px;
+background-color: white;
+}
+#resourcesbox > div > img{
+    width: 326px ;
+}
+/* Top section start */
+/* middles section starts */
+.res_middle{
+    width:90%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#res_middle11 {
+    width: 80%;
+}
+#res_middle11  span{
+    color: #693F93;
+    font-size: 32px;
+   
+}
+#res_middle11 > h1{
+    font-size: 32px;
+    color: #656565;
+}
+#res_middle11 > p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #252525;
+    margin-top: -20px;
+}
+#res_middle12{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+#res_middle12>div{
+display: flex;
+font-size: 18px;
+font-weight: bold;
+color: #3C3838;
+}
+#res_middle13{
+    width: 70%;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(5,1fr);
+}
+#res_middle13 :nth-child(3){
+    margin-top: -20px;
+}
+#res_middle13 img{
+    width:100%
+}
+#res_middle2{
+margin-top: -30px;
+}
+#res_middle2>p{
+    font-size: 26px;
+    color: #2F2C2C;
+    margin-left: 85px;
+}
+#res_inputs{
+    width: 85%;
+    border-color:#999393;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid #756f6f;
+    font-size: 1rem;
+    padding: 10px 10px 10px 20px;
+    height: 45px;
+}
+#res_inputs::placeholder{
+    font-weight: 400;
+    color:#999393;
+}
+#res_middle_btn1,#res_middle_btn2{
+    width: 85%;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 10px 10px 20px;
+    height: 45px; 
+}
+#res_middle_btn1{
+background-color: orangered;
+color: #FFFFFF;
+font-weight: bold;
+border: none;
+}
+#res_middle_btn2{
+    border-color: #693F93;
+    color: #693F93;
+    background-color: #FFFFFF;
+    border: 0.1px thin  #693F93 ;
+}
+#res_middle_btn2:hover{
+    border-color: #693F93;
+    background-color: #693F93;
+    color: #FFFFFF;
+}
+/* middles section end */
+
+/* footer starts*/
+footer{
+    color: #999393;
+    margin-left: 30px;
+}
+#footer{
+    width: 100%;
+    height: auto;
+   
+    background-color: rgb(100, 100, 232);
+   
+ }
+ #footer1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    color: white;
+ }
+ #pic{
+    width: 40%;
+    height: 450px;
+    padding-left: 70px;
+    padding-right: 50px;
+   
+ 
+ }
+ #pic>img{
+   width: 80%;
+   height: 100%;
+ }
+ #inputbox{
+    width: 60%;
+   
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+ }
+ #inputbox>p{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+ }
+ #inputbox>input{
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: #525cbb;
+    border: 0px;
+    padding-left: 30px;
+    color: rgb(236, 9, 35);
+ }
+ 
+ #inputbox>button{
+    width: 178px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(248, 111, 62);
+    border: 0px;
+   
+ }
+ #desc{
+    width: 100%;
+    height: 350px;
+   
+    padding: 50px;
+    padding-left: 70px;
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+   
+ }
+ #desc>div{
+    width: 18%;
+   
+    line-height: 16px;
+ }
+ #logo3{
+    width: 250px;
+    padding-left: 70px;
+   
+ }
+ #logo3>img{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ }
+
+/* footer ends */
+
+
