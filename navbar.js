@@ -5,10 +5,10 @@ let nav=()=>{
     
 
     <ul>
-    <a href='home.html'><li id="index_navbar1"><img src="https://www.engagebay.com/new/assets/img/engagebay-logo.svg"></li></a>
+    <a href='index.html'><li id="index_navbar1"><img src="https://www.engagebay.com/new/assets/img/engagebay-logo.svg"></li></a>
     
     <li class="dropdown" id="index_product">
-<a href="#news">Products</a>
+<a href="index.html">Products</a>
 
 <div class="dropdown-content">
     <div id="product_dropdown">

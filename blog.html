@@ -4,7 +4,8 @@
    
     <title>Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+    <link rel="stylesheet" href="navbar.css">
+    <!-- <style>
         *{
             padding: 0;
             margin: 0;
@@ -75,12 +76,12 @@
             font-size: 15px;
         }
        
-    </style>
+    </style> -->
 
 </head>
 <body>
     <div id="navbar">
-        <div>
+        <!-- <div>
           <img src="https://www.engagebay.com/blog/wp-content/uploads/2021/09/logo.svg" alt="">
         </div>
         <div id="nav">
@@ -95,7 +96,7 @@
         <div>
         <i class="fa fa-search"></i></div>
        <div id="free"><p>Free SignUp</p></div>
-    </div>
+    </div> -->
 </div>
 <!-- ******************************************************** -->
 <style>
@@ -591,3 +592,8 @@
 </div>
 </body>
 </html>
+<script src="./home.js" type="module">
+    import nav from "./navbar.js"
+    
+    document.getElementById("navbar").innerHTML=nav();
+    </script>
