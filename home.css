@@ -447,7 +447,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    animation: mymove1 1s ;
+    animation: mymove1 5s ;
 }
 
 #logo_in>div {
@@ -464,97 +464,6 @@
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-----Media Query--------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 
-@media only screen and (max-width: 1100px) and (min-width: 800px)  {
-    #carousel_div_p{
-        padding-left: 150px;
-        padding-right: 150px;
-        margin: auto;
-    }
-
-    #Carousel_left{
-        top: 200px;
-        left: 200px;
-    }
-
-    #Carousel_right{
-        top: 200px;
-        right: 200px;
-    }
-
-    #do_it_enagage p{
-        padding-left:100px ;
-        padding-right:100px ;
-
-    }
-    
-    #engage_grid{
-    
-    grid-template-columns: repeat(4,1fr);
-    gap:20px
-    
-    }
-
-    #Create_own_views_flex{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        row-gap:5px
-    }
-
-    #Create_own_views3{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 5px;
-       
-        
-    
-    }
-}
-
-
-@media screen and (max-width: 799px) and (min-width: 100px){
-    #carousel_div_p{
-        padding-left: 200px;
-        padding-right: 200px;
-        margin: auto;
-    }
-
-    #Carousel_left{
-        top: 200px;
-        left: 300px;
-    }
-
-    #Carousel_right{
-        top: 200px;
-        right: 300px;
-    }
-    #do_it_enagage p{
-        padding-left:200px ;
-        padding-right:200px ;
-
-    }
-
-    #engage_grid{
-    
-        grid-template-columns: repeat(2,1fr);
-        gap:10px
-        
-        
-        }
-
-        #Create_own_views_flex{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            row-gap:2px
-        }
-        #Create_own_views3{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            gap: 2px;
-           
-            
-        
-        }
-}
 
 /* ####################-------------------- Market better-----############################### */
 
@@ -607,7 +516,8 @@
         margin-left: -12%;
         margin-bottom: -20px;
         border-radius: 25px;
-    }#marketbetter>img{
+    }
+    #marketbetter>img{
         width:90%;
         margin: 0 5%;
     }
@@ -647,6 +557,28 @@
         margin-bottom: 50px;
     }
 
+    .single_solution1{
+        position: relative;
+        animation: mymovea 2s
+
+    }
+
+    .single_solution2{
+        position: relative;
+        animation: mymoveb 2s
+    }
+
+    .single_solution3{
+        position: relative;
+        animation: mymovec 2s
+    }
+
+    .single_solution4{
+        position: relative;
+        animation: mymoved 2s
+    }
+
+
     #single_solution{
         width: 50%;
         
@@ -668,7 +600,237 @@
 
         font-size: 1.12rem;
         font-weight: 300;
+       
     }
 
+    #single_solution_div2{
+        display: flex;
+    }
+
+    #single_solution_div5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #single_solution_div2 img{
+       width: 120px;
+       height: 120px;
+       margin: 0px 40px;
+    }
+
+    #single_solution_div2 p{
+        width: 250px;
+    }
+
+    #single_solution_div1 {
+       border: 1px solid black;
+       border-radius: 15px;
+    }
+
+    #single_solution_div2 {
+        padding: 40px;
+    }
+
+    #single_solution_div5 h2{
+        padding-left: 40px;
+        
+    }
+
+    #single_solution_div1 h6{
+        padding-left: 40px;
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 1rem
+    }
+
+    #single_solution_div5 div{
+        padding-left: 40px;
+       
+    }
+
+    #single_solution_div1 button{
+        padding: 10px 30px;
+        margin-left: 40px;
+        margin-top: 40px;
+        color: white;
+        background-color: #6639b3;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+       
+    }
+
+    #single_grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+
+
+    }
+
+    #mkt_image{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid black; */
+        padding-top: 80px;
+        column-gap: 10px;
+        margin-bottom: 50px;
+    }
+
+
+    @media only screen and (max-width: 1100px) and (min-width: 800px)  {
+        #carousel_div_p{
+            padding-left: 150px;
+            padding-right: 150px;
+            margin: auto;
+        }
+    
+        #Carousel_left{
+            top: 200px;
+            left: 200px;
+        }
+    
+        #Carousel_right{
+            top: 200px;
+            right: 200px;
+        }
+    
+        #do_it_enagage p{
+            padding-left:100px ;
+            padding-right:100px ;
+    
+        }
+        
+        #engage_grid{
+        
+        grid-template-columns: repeat(4,1fr);
+        gap:20px
+        
+        }
+    
+        #Create_own_views_flex{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            row-gap:5px
+        }
+    
+        #Create_own_views3{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 5px;
+           
+            
+        
+        }
+    
+        #marketbetter1{
+            font-size:1 rem;
+        }
+    
+        #marketbetter button{
+            margin-left: 55%;
+            margin-bottom: -120px;
+            margin-right: 55px;
+           
+    
+        }
+    
+        #single_grid{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 10px;
+            width: 80%;
+            margin: auto;
+    
+        }
+
+        #mkt_image{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+            width: 60%;
+            margin: auto;
+            /* border: 1px solid black; */
+            padding-top: 80px;
+            column-gap: 10px;
+            margin-bottom: 50px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 799px) and (min-width: 100px){
+        #carousel_div_p{
+            padding-left: 200px;
+            padding-right: 200px;
+            margin: auto;
+        }
+    
+        #Carousel_left{
+            top: 200px;
+            left: 300px;
+        }
+    
+        #Carousel_right{
+            top: 200px;
+            right: 300px;
+        }
+        #do_it_enagage p{
+            padding-left:200px ;
+            padding-right:200px ;
+    
+        }
+    
+        #engage_grid{
+        
+            grid-template-columns: repeat(2,1fr);
+            gap:10px
+            
+            
+            }
+    
+            #Create_own_views_flex{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap:2px
+            }
+            #Create_own_views3{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 2px;
+               
+                
+            
+            }
+    
+            #single_grid{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 5px;
+                width: 80%;
+                margin: auto;
+        
+            }
+
+            #mkt_image{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                
+                width: 40%;
+                margin: auto;
+                /* border: 1px solid black; */
+                padding-top: 80px;
+                column-gap: 10px;
+                margin-bottom: 50px;
+            }
+    }
+    
+   
+       
+        
     
     
