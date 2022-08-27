@@ -233,6 +233,104 @@
             border-radius: 5px;
             font-family: 'Segoe UI'
         }
+        #footer {
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            background-color: rgb(100, 100, 232);
+
+        }
+
+        #footer1 {
+            width: 100%;
+            height: 450px;
+            display: flex;
+            color: white;
+        }
+
+        #pic {
+            width: 40%;
+            height: 450px;
+            padding-left: 70px;
+            padding-right: 50px;
+
+
+        }
+
+        #pic>img {
+            width: 80%;
+            height: 100%;
+        }
+
+        #inputbox {
+            width: 60%;
+
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+        #inputbox>p {
+            font-size: 28px;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+
+        #inputbox>input {
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 20px;
+            gap: 20px;
+            background-color: #525cbb;
+            border: 0px;
+            padding-left: 30px;
+            color: rgb(236, 9, 35);
+        }
+
+        #inputbox>button {
+            width: 178px;
+            height: 50px;
+            font-size: 16px;
+            border-radius: 5px;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            color: white;
+            background-color: rgb(248, 111, 62);
+            border: 0px;
+
+        }
+
+        #desc {
+            width: 100%;
+            height: 350px;
+
+            padding: 50px;
+            padding-left: 20px;
+            display: flex;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+        }
+        #desc>div>h5{
+            margin-left: 60px;
+        }
+
+        #desc>div {
+            width: 18%;
+
+            line-height: 16px;
+        }
+
+        #logo3 {
+            width: 250px;
+            padding-left: 70px;
+
+        }
+
+        #logo3>img {
+            width: 100%;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+        #logo3+p{
+            margin-left: -4px;
+        }
 
         @media all and (min-width: 480px) and (max-width: 768px) {
             #plan {
@@ -318,6 +416,7 @@
 </head>
 
 <body>
+    <div id="navbar"></div>
     <div id="topblue">
         <h1>The best platform to grow your business</h1>
         <p>Completely FREE Migration Service from Any Other Platform. No Hassles.</p>
@@ -374,6 +473,80 @@
             Bullock <br><br><span>Business Coach | International Speaker | Top Women Social Media Influencer</span>
         </div>
     </div>
+    <div id="footer">
+        <div id="footer1">
+           
+            <div id="pic"><img src="https://cdn5.engagebay.com/new/assets/img/cta-img.svg" alt=""></div>
+            <div id="inputbox">
+                <p>Get Started</p>
+              <input type="text" placeholder="Name" >     <input type="text" placeholder="Website URL"> <br><br>
+              <input type="text" placeholder="Username">     <input type="text" placeholder="Password"><br><br>
+              <button>SIGNUP FOR FREE</button>  <button>SCHEDULE A CALL</button>        
+            </div>
+        </div>
+        <div id="desc">
+            <div>
+                <h5>Attract Web Visitors</h5>
+                <p>Email Marketing</p>
+                <p>Email Templates</p>
+                <p>Email Broadcast</p>
+                <p>Double Opt-In Email</p>
+                <p>Autoresponder Email</p>
+                <p>Email A/B Testing</p>
+                <p>RSS-to-Email</p>
+            </div>
+            <div>
+                <h5>Integrations</h5>
+                <p>Zapier Integration</p>
+                <p>Email Templates</p>
+                <p>Email Broadcast</p>
+                <p>Mandrill Integration</p>
+                <p>Autoresponder Email</p>
+                <p>Email A/B Testing</p>
+                <p>Postmark Integration</p>
+            </div>
+            <div>
+                <h5>Alternatives</h5>
+                <p>Zapier Integration</p>
+                <p>Email Templates</p>
+                <p>ActiveCampaign Alternative</p>
+                <p>Insightly Alternative</p>
+                <p>Autoresponder Email</p>
+                <p>Email A/B Testing</p>
+                <p>Agile CRM Alternative</p>
+            </div>
+            <div>
+                <h5>Solutions</h5>
+                <p>Wordpress Plugin</p>
+                <p>Email Templates</p>
+                <p>Real Estate CRM</p>
+                <p>Insightly Alternative</p>
+                <p>Autoresponder Email</p>
+                <p>Call Center CRM</p>
+                <p>Agile CRM Alternative</p>
+            </div>
+            <div>
+                <h5>Sales & Engage Prospects</h5>
+                <p>Email Sequences</p>
+                <p>Email Templates</p>
+                <p>Real Estate CRM</p>
+                <p>Marketing Automation</p>
+                <p>Autoresponder Email</p>
+                <p>Call Center CRM</p>
+                <p>Video Marketing Templates</p>
+            </div>
+        </div>
+        <div id="logo3">
+        <img src="https://www.engagebay.com/new/assets/img/engagebay-logo.svg" alt="">
+          
+        </div>
+        <p style=" padding-left: 70px; color: white;font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;">One platform for all your Marketing, Sales, and Support teams.</p>
+      </div>
 </body>
 
 </html>
+<script src="./home.js" type="module">
+    import nav from "./navbar.js"
+    
+    document.getElementById("navbar").innerHTML=nav();
+</script>
